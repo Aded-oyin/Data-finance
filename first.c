@@ -50,7 +50,7 @@ int first(char *s)
 	int v, sign = 1, flag = 0, output;
 	unsigned int result = 0;
 
-	for (v = 0; s[v] != '\0' && flag != 2; i++)
+	for (v = 0; s[v] != '\0' && flag != 2; v++)
 	{
 		if (s[v] == '-')
 			sign *= -1;
